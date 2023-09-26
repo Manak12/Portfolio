@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="/Images/Favi.png"/>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/6df955d90b.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/Images/Logo of M.avif" class=" logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick ="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I am <span>Manak Verma</span> <br>from India</h1>
+            </div>
+        </div>
+     </div>
+     <!-----About Section-->
+     <di id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/pfp.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1> 
+                    <p>
+                        I am a passionate tech enthusiast with a fervent desire to excel in the realms of Data Science,
+                         Machine Learning, and Artificial Intelligence. My expertise extends to web development,
+                         where I've honed my skills in crafting innovative digital experiences. With a strong 
+                         foundation in Data Structures and Algorithms, I am driven by a relentless curiosity 
+                         to explore, analyze, and innovate. My journey is defined by an unwavering commitment
+                         to harness technology's potential and make meaningful contributions in these dynamic fields.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick ="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick ="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick ="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id ="Skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Building and Designing websites</li>
+                             <li><span>ML & AI </span><br>Creating ML models with the help of Data Science</li>
+                            <li><span>Data Structure and Algorithms</span><br>Solving Algorithmic Problem with Efficient Data Structures </li>
+                        </ul> 
+                    </div> 
+
+                    <div class="tab-contents" id ="Experience">
+                      <ul>
+                            <li><span>Student</span><br>Building and Designing websites <br> Learning New technologies</li>
+                             
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id ="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>BTech for Indian Institute of Information Technology, Bhopal</li>
+                             <li><span>2016-2020 </span><br>Matriculation and Intermediate</li>
+                           
+                        </ul> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Services-->
+    <div id="services">
+         <div class="container">
+             <h1 class="sub-title"> My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Web Design</h2>
+                    <p>We create and help people for creative and optimised 
+                        Web Design for better User Experience</p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Graphic Design and Video Editing</h2>
+                    <p>We design attractive and pyscological graphics
+                         and edit video for our customer </p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Software Solutions</h2>
+                    <p>We create Software Solutions for our customers 
+                      in domain of Artificial Intelligence, Web Development,
+                       Date Centric and Research purposes</p>
+                     <a href="#">Learn more</a>
+                </div>
+             </div>
+         </div>
+    </div>
+
+ <!----Portfolio-->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Images/work-1.png"> 
+                    <div class="layer">
+                        <h3>Web3 Defi Web app</h3>
+                        <p>Decentralized blockchain based web app</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/work-2.png"> 
+                    <div class="layer">
+                        <h3>Sales Forcasting using D-Mart data Set</h3>
+                        <p>Sales predictor using Machine learning and having web inteface</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/work-3.png">
+                    <div class="layer">
+                        <h3>Text Summarizer</h3>
+                        <p>NLP based summarization model </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                     
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+   <!----Contact -->
+     
+   <div id="contact">
+          <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <p><i class="fa-regular fa-paper-plane"></i>vermamanak3@gmail.com</p>
+                  <p> <img src="/Images/india.png">+91 7415151891 </p>
+                  <div class="social-icons">
+                    <a href ="#"><i class="fa-brands fa-meta"></i></a>
+                    <a href ="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href ="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href ="#"><i class="fa-brands fa-instagram"></i></a>   
+                  </div>
+                  <a href=" "download class="btn btn2">Download Resume</a>
+                </div>
+            <div class="contact-right"> 
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name ="Name" placeholder=" Your Name" required>
+                    <input type="email" name ="Email" placeholder=" Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class ="btn btn2">Submit</button>
+                </form>
+                <span id ="msg"></span>
+
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created by Manak Verma<i class="fas fa-heart"></i> &copy; 2023 All rights reserved</p>
+        </div>
+   </div>
+      
+
+   <!----javascript for menu-->
+     <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+              for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+                       }
+               for(tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab");
+                   }
+             event.currentTarget.classList.add("active-link");
+             document.getElementsById(tabname).classList.add("active-tab");
+        }
+     </script>
+
+     <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+           sidemen.style.right ="0";    
+        }
+        function closemenu(){
+            sidemen.style.right ="-200px";
+        }
+     </script>
+
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxwB8NYWQP1us7uHvR_qcsYpHGvWHcCjUaSsObI7uiz1cPR8uOAo-eTKBlrHLZD2ncO/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const msg = document.getElementById("msg") 
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+              
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
