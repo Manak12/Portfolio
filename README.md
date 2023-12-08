@@ -1,2 +1,2 @@
 # Portfolio
-# Portfolio with HTM, CSS and JavaScript
+# Portfolio with HTML, CSS and JavaScript
